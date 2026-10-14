@@ -140,9 +140,7 @@ def add_cors(app, origins=None):
         allow_origins=origins or [
             "http://localhost:5500",
             "http://127.0.0.1:5500",
-            "http://localhost:8000",
             "https://vessicall.vercel.app",
-            "https://vessical.vercel.app",
         ],
         allow_credentials=True,
         allow_methods=["*"],
